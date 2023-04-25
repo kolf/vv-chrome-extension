@@ -1,1 +1,0 @@
-(()=>{"use strict";chrome.webRequest.onBeforeSendHeaders.addListener((function(e){alert(JSON.stringify(e))}),{urls:["<all_urls>"]},["blocking","requestHeaders"]),alert(1)})();
